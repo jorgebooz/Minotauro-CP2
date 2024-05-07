@@ -8,30 +8,30 @@ function Nav() {
     <>
       <header className="menu">
         <nav className="nav-menu">
-            <Link to="/" className="tlink">
+            <Link to="/" className="logo">
               <img src={logo} alt="" />
             </Link>
           <ul>
-            <Link to="/" className="tlink">
+            <Link to="/" className="tlink anchor">
               Home
             </Link>{' '}
             {''}
-            <Link to="/sobre" className="tlink">
+            <Link to="/sobre" className="tlink anchor">
               Sobre
             </Link>
-            <Link to="/contato" className="tlink">
+            <Link to="/contato" className="tlink anchor ">
               Contato
             </Link>
 
-            <Link to="/ListaProduto" className="tlink">
+            <Link to="/ListaProduto" className="tlink anchor ">
               Produtos
             </Link>
 
-            <Link to="/ExemploApi" className="tlink">
+            <Link to="/ExemploApi" className="tlink anchor">
               Dados de envio
             </Link>
 
-            <Link to="/login" className="tlink">
+            <Link to="/login" className="tlink anchor">
               Login
             </Link>
           </ul>
