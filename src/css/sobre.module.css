@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    gap: 5rem
+}
+.header h1{
+    text-align: center;
+    font-weight: 1000;
+}
+.tituloSobre{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+.azul{
+    color: #1043CF;
+}
+.header p{
+    font-weight: 300;
+    font-size: medium;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    position: relative; 
+    padding-top: 3rem; 
+    padding-bottom: 3rem; 
+    margin: 1rem 1rem 7.5rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  .card::before,
+  .card::after {
+    content: "";
+    width: 80%;
+    border-top: 8px solid #3333;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card::before {
+    top: 0; /* Para a borda superior */
+  }
+  
+  .card::after {
+    bottom: 0; /* Para a borda inferior */
+  }
+  
+  .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6); 
+}  
+.cardTitle{
+    color: #1043CF;
+    font-weight: 500;
+}
+.card p{
+    width: 80%;
+}
+.image {
+    width: 3rem;
+}   
