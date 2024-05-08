@@ -28,11 +28,11 @@ function Login() {
 
   return (
     <section className="login">
-      {/*condição ternária */}
       {getUsuario && getSenha ? (
         <Home/>
       ) : (
         <form onSubmit={handleSubmit} >
+          <h1>Login</h1>
           <p>
             USUÁRIO:
             <input type="text" placeholder="Digite seu Usuário" ref={usuario} />
@@ -41,7 +41,7 @@ function Login() {
             SENHA:
             <input type="password" placeholder="Digite sua senha" ref={senha} />
           </p>
-          <button type="submit">ENTRAR</button>
+          <button className='botao' type="submit">ENTRAR</button>
         </form>
       )}
     </section>

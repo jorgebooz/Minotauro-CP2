@@ -118,7 +118,7 @@ function Produto() {
               </tbody>
           </table>
           <div className={styles.buttonCadastro}>
-              <button onClick={createData}>Cadastrar produto</button>
+              <button className={styles.buttonProduto} onClick={createData}>Cadastrar produto</button>
           </div>
       </div>
   );  
