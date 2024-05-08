@@ -1,0 +1,64 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+.trHeader {
+    display: flex;
+    gap: 3rem;
+}
+
+.headerItem {
+    background-color: #1043cf;
+    color: #fff;
+    font-size: 20px; 
+    font-weight: 600;   
+    border-radius: 1rem;  
+}
+
+.tableBody {
+    background-color: #1043cf2d;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.trBody {
+    display: flex;
+    gap: 2rem;
+    color: #111;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: #1043cf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: background-color 0.3s;  
+    font-size: 20px;
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+.buttonCadastro {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #1073cf;
+}
+
+.icon{
+    padding: 0.4rem;
+}
+
+.icon:hover {
+    background-color: #1e78e07a;;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
