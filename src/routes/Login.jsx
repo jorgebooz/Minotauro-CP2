@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import '../css/estilo.css';
+import Home from './Home';
 
 function Login() {
   /* Hook- useRef ele retorna uma referencia a um elemento ou componentsem tem que ter que ser
@@ -29,7 +30,7 @@ function Login() {
     <section className="login">
       {/*condição ternária */}
       {getUsuario && getSenha ? (
-        <Portifolio/>
+        <Home/>
       ) : (
         <form onSubmit={handleSubmit} >
           <p>
