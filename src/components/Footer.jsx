@@ -1,5 +1,5 @@
 import {} from 'react';
-import styles from '../css/footer.modules.css'
+import '../css/estilo.css';
 
 function Footer() {
 

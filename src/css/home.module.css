@@ -1,0 +1,32 @@
+.homeMain{
+    padding: 4rem 5rem 6rem 5rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeMain h1{
+    padding: 20px 0;
+    font-size: 35pt;
+  }
+  .homeImage{
+    width: 50vw;
+    transition: 0.3s;
+  }
+  .homeImage:hover{
+    cursor: pointer;
+    width: 55vw;
+  }
+  .btn{
+    color: #1043CF;
+    display: inline-block;
+    justify-content: end;
+    padding: 5rem 0px;
+    transition: 0.3s;
+  }
+  .btn:hover{
+    color:#1073cf;
+  }
+  .btn::after{
+    color: #1043CF;
+  }
