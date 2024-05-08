@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content:  center;
+  }
+  
+  .bgImage {
+    background-image:url(../assets/background.svg);
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 7rem;
+  }
+
+.contatoTop{
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 2rem;
+}
+.contatoTop p{
+    font-size: medium;
+}
+.contatoTop a{
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+  .contatoCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    text-align: start;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem ;
+    width: 75%;
+  }
+
+  .titulo{
+    text-align: center;
+    border-bottom: 2px solid #0000004b;
+    padding-bottom: .5rem;
+  }
+
+  .azul{
+    color: #1043CF;
+  }
