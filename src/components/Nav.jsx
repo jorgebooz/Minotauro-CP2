@@ -16,9 +16,11 @@ function Nav() {
               Home
             </Link>{' '}
             {''}
+            
             <Link to="/sobre" className="tlink anchor">
               Sobre
             </Link>
+
             <Link to="/contato" className="tlink anchor ">
               Contato
             </Link>
@@ -27,13 +29,10 @@ function Nav() {
               Produtos
             </Link>
 
-            <Link to="/ExemploApi" className="tlink anchor">
-              Dados de envio
-            </Link>
-
             <Link to="/login" className="tlink anchor">
               Login
             </Link>
+            
           </ul>
         </nav>
       </header>
